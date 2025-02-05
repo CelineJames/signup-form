@@ -79,7 +79,7 @@ h1{
 }
 
 .form-data-wrapper{
-    width: 90%; 
+    width: 100%; 
 }
 .form-image{
     width: 40%;
@@ -144,6 +144,11 @@ h1{
     /* MOBILE VIEW */
 
     @media screen and (max-width: 600px){
+
+
+        body{
+            background-color: transparent;
+        }
 
         main{
             display: block;
